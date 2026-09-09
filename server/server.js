@@ -24,8 +24,10 @@ app.use((err, _req,res,_next)=>{
     res.status(500).json({error:err.message})
 })
 
-const port = process.env.PORT || 3000;
+// const port = process.env.PORT || 3000;
 
-app.listen(port, ()=>{
-    console.log(`server is running at http://localhost:${port}`)
-})
+// app.listen(port, ()=>{
+//     console.log(`server is running at http://localhost:${port}`)
+// })
+
+export default app;
