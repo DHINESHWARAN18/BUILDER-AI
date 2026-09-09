@@ -30,7 +30,7 @@ const App = () => {
       <Route path='/publish/:id' element={<PublishPage/>}/>
 
       {/* catch all */}
-      <Route path='*' element={<Navigate to="/login" replace/>}/>
+      <Route path='*' element={<Navigate to="/" replace/>}/>
 
     </Routes>
     </>
